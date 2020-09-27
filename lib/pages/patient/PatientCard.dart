@@ -68,15 +68,13 @@ class _PatientCardState extends State<PatientCard> {
                     ),
                     Container(
                       padding: const EdgeInsets.all(5.0),
-                      child: Expanded(
-                        child: Text(
-                          string,
-                          style: TextStyle(fontSize: 17),
-                          maxLines: 25,
-                          softWrap: true,
-                          overflow: TextOverflow.clip,
-                          textDirection: TextDirection.ltr,
-                        ),
+                      child: Text(
+                        string,
+                        style: TextStyle(fontSize: 15),
+                        maxLines: 25,
+                        softWrap: true,
+                        overflow: TextOverflow.clip,
+                        textDirection: TextDirection.ltr,
                       ),
                     ),
                   ],
